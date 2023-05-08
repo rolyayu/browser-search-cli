@@ -17,8 +17,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "chrome-launcher": "^0.15.2",
-    "chromium-edge-launcher": "^1.0.0",
+    "colors": "^1.4.0",
     "yargs": "^17.7.2"
   }
 }
