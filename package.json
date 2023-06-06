@@ -1,6 +1,6 @@
 {
   "name": "browser-search-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI that allows you to search in browser on certain platforms",
   "main": "./build/app.js",
   "bin": {
