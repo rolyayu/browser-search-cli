@@ -1,14 +1,28 @@
 {
-  "name": "course-work-cli",
+  "name": "browser-search-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI that allows you to search in browser on certain platforms",
   "main": "./build/app.js",
+  "bin": {
+    "bs": "./build/app.js"
+  },
+  "author": {
+    "name": "Rudkovsky Anton",
+    "email": "ranton497@gmail.com"
+  },
+  "keywords": [
+    "cross-platform",
+    "cli",
+    "search"
+  ],
+  "repository": {
+    "url": "git@github.com:rolyayu/browser-search-cli.git"
+  },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --watch",
     "start": "npx ts-node ./src/app.ts"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/yargs": "^17.0.24",
@@ -17,7 +31,8 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "colors": "^1.4.0",
+    "open": "^9.1.0",
+    "winston": "^3.8.2",
     "yargs": "^17.7.2"
   }
 }
