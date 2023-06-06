@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 import { parseSearchPlatform } from './helpers/index.js';
 import { Browser, SearchPlatform } from './interfaces/index.js';
 import { saveOrGetDefaultConfig, search } from './services/index.js';
