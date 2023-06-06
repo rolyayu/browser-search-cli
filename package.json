@@ -21,7 +21,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc --watch",
-    "start": "npx ts-node ./src/app.ts"
+    "start": "npx ts-node ./src/app.ts",
+    "prepublish": "tsc"
   },
   "license": "ISC",
   "devDependencies": {
